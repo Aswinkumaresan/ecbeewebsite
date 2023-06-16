@@ -1,0 +1,109 @@
+*{
+    color:#F19300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+/* header section */
+.header_section{
+    background-color:#00000017;
+    /* <--------------------------#e58a2212  check this color-------------------------->*/
+    /* border-bottom: 1px solid #F19300;
+    border-top: 1px solid #F19300; */
+    box-shadow: 0 7px 10px #f1930066;
+}
+/* logo section */
+.logo{
+    width: 175px;
+    height: 111px;
+}
+
+/* navigation section */
+
+.navigation .nav-item{
+    padding: 0 5px;
+}
+.navigation a{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.navigation .nav-link:hover {
+    color: #F19300;
+}
+
+/* Getstarted section */
+.btn-outline-success.getstarted{
+    /* background-color: #F19300; */
+    color:#F19300;
+    padding: 10px 40px;
+    font-size: 18px;
+    border: 1px solid #F19300;
+}
+.btn-outline-success.getstarted:hover{
+    background-color: #F19300;
+    color:white;
+    border: 1px solid white;
+
+}
+
+/* banner section */
+.banner_section{
+    padding: 80px 0 90px;
+    /* border-bottom: 1px solid #F19300; */
+    position: relative;
+    /* box-shadow: 0 7px 10px #ccc; */
+    
+}
+.banner_left{
+    
+    padding: 202px 0 100px 65px;;
+}
+.banner_left h2{
+ font-size: 51px;
+ font-weight: 500;
+
+}
+.banner_left p{
+    font-size: 18px;
+    line-height: 30px;
+    color:#000000ab;
+    letter-spacing: 2px;
+   
+   }
+.banner_right img{
+    width: 100%;
+    height: auto;
+}
+
+/* sub banner section */
+.subbanner_section{
+    position: absolute;
+    /* bottom: 0; */
+    top: 703px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+  
+    
+}
+.subbanner_div{
+    /* border: 1px solid black; */
+    box-shadow: 0 -3px 12px #ccc;
+    background-color: white;
+    padding: 30px 0;
+   
+    
+}
+.subbanner_div:hover{
+    box-shadow: 0 -3px 12px #e77606;
+}
+
+/* about services */
+.about_services{
+    height: 350px;
+    width: auto;
+    z-index: 0;
+    background-color: #706a60;
+}
