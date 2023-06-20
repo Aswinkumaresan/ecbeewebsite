@@ -20,6 +20,7 @@
         rel="stylesheet">
     <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Ecbee</title>
 </head>
 
@@ -50,20 +51,28 @@
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" role="button"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                data-bs-toggle="dropdown" aria-expanded="true">
                                                 Solutions
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="b2b.html">B2B Commerce</a></li>
+                                                <li><a class="dropdown-item headerbg" href="b2b.html">B2B Commerce</a></li>
                                                 <li><a class="dropdown-item" href="b2b2c.html">B2B2C Commerce</a></li>
+                                                
                                                 <li><a class="dropdown-item" href="d2c.html">D2C</a></li>
                                                 <li><a class="dropdown-item" href="b2c.html">B2C</a></li>
-                                                <li><a class="dropdown-item" href="multivendor.html">Multivendor</a>
+                                                <li><a class="dropdown-item" href="multivendor.html">Multi Vendor</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="multistore.html">Multi Store</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="multistore.html">Industries</a>
                                                 </li>
 
-                                                <li><a class="dropdown-item" href="#">Quick Commerce</a></li>
-                                                <li><a class="dropdown-item" href="#">Action 7</a></li>
-                                                <li><a class="dropdown-item" href="#">Action 8</a></li>
+                                                <li><a class="dropdown-item" href="omnichannel.html">Omni Channel</a></li>
+                                                <li><a class="dropdown-item" href="#">Custom Application</a></li>
+                                                <li><a class="dropdown-item" href="#">Mobile Applilcation</a></li>
+                                                <li><a class="dropdown-item" href="#">Geolocation Based Ecommerce</a></li>
+                                                <li><a class="dropdown-item" href="#">Headless</a></li>
+                                                
                                                 <!-- <li>
                                                     <hr class="dropdown-divider">
                                                 </li> -->
@@ -71,17 +80,17 @@
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Industries</a>
+                                            <a class="nav-link active" aria-current="page" href="industries.html">Industries</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Examples</a>
+                                            <a class="nav-link active" aria-current="page" href="examples.html">Examples</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                                            <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                                            <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
                                         </li>
 
 
@@ -97,8 +106,8 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="getstarted d-flex justify-content-end">
-                        <button class="btn btn-outline-success getstarted" type="submit">Get Started</button>
+                    <div class="getstarted d-flex justify-content-end"  data-aos="fade-up" data-aos-duration="1000">
+                        <a href="contact.html"> <button class="btn btn-outline-success getstarted" type="submit">Get Started</button></a>
                     </div>
                 </div>
             </div>
@@ -108,14 +117,17 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="banner_left">
-                        <h2>Most Flexible Ecommerce Platform</h2>
-                        <p>Designed for diverse B2B, B2C and B2B2C business models</p>
+                    <div class="banner_left" data-aos="fade-right">
+                        <h2 data-aos="fade-down">Most Flexible Ecommerce Platform</h2>
+                        <p data-aos="fade-up">Designed for diverse B2B, B2C and B2B2C business models</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="banner_right">
-                        <img src="./assests/online-shopping-concept-landing-page_52683-22153.avif" alt="banner_right">
+                        <!-- <img src="./assests/online-shopping-concept-landing-page_52683-22153.avif" alt="banner_right"> -->
+                        <!-- <img src="./assests/eCommerce-Cartoon-removebg-preview.png" alt="banner_right"> -->
+                        <img src="./assests/illustration-isometric-concept-safety-of-online-shopping-in-e-commerce-stores-free-vector-removebg-preview.png"
+                            alt="banner_right">
                     </div>
 
                 </div>
@@ -125,9 +137,9 @@
     <section class="subbanner_section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    <a href="b2b.html">
-                        <div class="subbanner_div text-center">
+                <div class="col-lg-3" data-aos="fade-up" data-aos-duration="300">
+                    <a href="b2b.html" class="text-decoration-none">
+                        <div class="subbanner_div orange_bg text-center">
                             <div class="image_sub_banner text-center">
                                 <img src="./assests/b2b/b2binfoabout.png" alt="sub banner img">
                             </div>
@@ -136,10 +148,10 @@
                     </a>
 
                 </div>
-                <div class="col-lg-3">
-                    <a href="d2c.html">
-                        <div class="subbanner_div text-center">
-                            <div class="image_sub_banner text-center">
+                <div class="col-lg-3" data-aos="fade-up" data-aos-duration="700">
+                    <a href="d2c.html" class="text-decoration-none">
+                        <div class="subbanner_div orange_bg text-center">
+                            <div class="image_sub_banner  text-center">
                                 <img src="./assests/d2c/d2cinfodata.png" alt="sub banner img">
                             </div>
                             <h1>D2C</h1>
@@ -147,9 +159,9 @@
                     </a>
 
                 </div>
-                <div class="col-lg-3">
-                    <a href="b2c.html">
-                        <div class="subbanner_div text-center">
+                <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000" >
+                    <a href="b2c.html" class="text-decoration-none">
+                        <div class="subbanner_div orange_bg text-center">
                             <div class="image_sub_banner text-center">
                                 <img src="./assests/b2c/b2cinfodata-removebg-preview.png" alt="sub banner img">
                             </div>
@@ -158,9 +170,9 @@
                     </a>
 
                 </div>
-                <div class="col-lg-3">
-                    <a href="b2b2c.html">
-                        <div class="subbanner_div text-center">
+                <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+                    <a href="b2b2c.html" class="text-decoration-none">
+                        <div class="subbanner_div orange_bg text-center">
                             <div class="image_sub_banner text-center">
                                 <img src="./assests/b2b2c/b2b2cinfodata-removebg-preview.png" alt="sub banner img">
                             </div>
@@ -179,7 +191,8 @@
                 <h4>Tailer made enterprise solutions for your brand</h4>
                 <p>Power Disruption brands across 40+ industries.</p>
             </div>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-aos="fade-left">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -271,7 +284,8 @@
                                                 <div class="col-lg-6">
                                                     <div class="solutions_subcontent_description_content">
                                                         <h3>D2C Horizontal Marketplace</h3>
-                                                        <p>Direct-To-Consumer Model Selling Brand Products Along With Ancillaries From Other
+                                                        <p>Direct-To-Consumer Model Selling Brand Products Along With
+                                                            Ancillaries From Other
                                                             Sellers</p>
                                                     </div>
                                                 </div>
@@ -288,7 +302,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="solutions_subcontent_right">
-                                        <img src="./assests/d2c/Direct-to-Consumer-Strategy-D2C-removebg-preview.png">
+                                        <img src="./assests/d2c/bannerd2c-removebg-preview.png">
 
                                     </div>
                                 </div>
@@ -317,19 +331,22 @@
                                                 <div class="col-lg-6">
                                                     <div class="solutions_subcontent_description_content">
                                                         <h3>B2B2C Multi Store Multi Dealer Network</h3>
-                                                        <p>B2B2C Model with brand selling to other businesses (B2B) and retail customers (B2C)</p>
+                                                        <p>B2B2C Model with brand selling to other businesses (B2B) and
+                                                            retail customers (B2C)</p>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="solutions_subcontent_description_content">
                                                         <h3>B2B2C Hybrid Marketplace</h3>
-                                                        <p>B2B2C business selling brand products along with ancillary products from other sellers</p>
+                                                        <p>B2B2C business selling brand products along with ancillary
+                                                            products from other sellers</p>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="solutions_subcontent_description_content">
                                                         <h3>Hyperlocal B2B2C Marketplace</h3>
-                                                        <p>B2B2C marketplace catering to hyperlocal markets using local stores as vendors</p>
+                                                        <p>B2B2C marketplace catering to hyperlocal markets using local
+                                                            stores as vendors</p>
                                                     </div>
                                                 </div>
 
@@ -404,7 +421,7 @@
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
@@ -420,25 +437,26 @@
     </section>
 
 
-    <section class="built_section text-center pt-4 pb-4">
+    <section class="built_section text-center pt-4 pb-4" id="solutionid">
         <div class="container">
-            <div class="sub_banner_content text-center pt-5" data-aos="flip-up">
-                <h4>What can you build with StoreHippo® ?</h4>
+            <div class="sub_banner_content text-center pt-5" data-aos="fade-down">
+                <h4>We Built...</h4>
                 <p>Experience a full-featured development platform with beyond E-commerce capabilities. Get inspired by
                     thousands of use cases. .</p>
             </div>
 
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel owl-theme" data-aos="fade-right">
                 <div class="item">
-                    <div class="built_section_carosel_div text-center">
+                    <div class="built_section_carosel_div">
                         <div class="built_section_carosel_div_content">
-                            <img src="./assests/built/built1.webp">
-                            <h4> Multi-Seller Marketplaces</h4>
+
+                            <img src="./assests/b2b2c/multi-store-ecommerce-platform.jpg">
+                            <h4>Multi-Store For Ecommerce</h4>
                             <p>
                                 Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
-                                feature-rich dashboard to manage and automate your marketplace.
+                                feature-rich.
                             </p>
-                            <a href="#">Read More</a>
+                            <a href="multistore.html">Read More</a>
                         </div>
 
                     </div>
@@ -446,8 +464,105 @@
                 <div class="item">
                     <div class="built_section_carosel_div text-center">
                         <div class="built_section_carosel_div_content">
-                            <img src="./assests/built/built2.webp">
-                            <h4> Multi-Seller Marketplaces</h4>
+
+                            <img src="./assests/b2b/b2binfoabout-removebg-preview.png">
+
+                            <h4> Franchise Based B2B</h4>
+                            <p>
+                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
+                                feature-rich dashboard to manage and automate your marketplace.
+                            </p>
+                            <a href="b2b.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="built_section_carosel_div text-center">
+                        <div class="built_section_carosel_div_content">
+
+
+
+
+                            <img src="./assests/b2b/best-platforms-for-b2b-marketing-removebg-preview.png">
+                            <h4> B2B</h4>
+                            <p>
+                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
+                                feature-rich dashboard to manage and automate your marketplace.
+                            </p>
+                            <a href="b2b.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="built_section_carosel_div text-center">
+                        <div class="built_section_carosel_div_content">
+                            <img src="./assests/b2c/b2cinfodata.jpg">
+                            <h4> B2C</h4>
+                            <p>
+                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
+                                feature-rich dashboard to manage and automate your marketplace.
+                            </p>
+                            <a href="b2c.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="built_section_carosel_div text-center">
+                        <div class="built_section_carosel_div_content">
+                            <img src="./assests/d2c/d2cmarket.png">
+                            <h4> D2C</h4>
+                            <p>
+                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
+                                feature-rich dashboard to manage and automate your marketplace.
+                            </p>
+                            <a href="d2c.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="built_section_carosel_div text-center">
+                        <div class="built_section_carosel_div_content">
+                            <img src="./assests/b2b2c/banner.png">
+                            <h4> B2B2C</h4>
+                            <p>
+                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
+                                feature-rich dashboard to manage and automate your marketplace.
+                            </p>
+                            <a href="b2b2c.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="built_section_carosel_div text-center">
+                        <div class="built_section_carosel_div_content">
+                            <img src="./assests/built/Omnichannel-support.png">
+                            <h4> Omni-Channel</h4>
+                            <p>
+                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
+                                feature-rich dashboard to manage and automate your marketplace.
+                            </p>
+                            <a href="omnichannel.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="built_section_carosel_div text-center">
+                        <div class="built_section_carosel_div_content">
+                            <img src="./assests/b2b2c/Hyperlocal-Marketing-Agency-removebg-preview.png">
+                            <h5> Geo-Location Based Ecommerce</h5>
+                            <p>
+                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
+                                feature-rich.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="built_section_carosel_div text-center">
+                        <div class="built_section_carosel_div_content">
+                            <img src="./assests/built/custom_application-removebg-preview.png">
+                            <h4> Custom Application</h4>
                             <p>
                                 Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
                                 feature-rich dashboard to manage and automate your marketplace.
@@ -459,8 +574,8 @@
                 <div class="item">
                     <div class="built_section_carosel_div text-center">
                         <div class="built_section_carosel_div_content">
-                            <img src="./assests/built/built3.webp">
-                            <h4> Multi-Seller Marketplaces</h4>
+                            <img src="./assests/built/headless-removebg-preview (1).png">
+                            <h4> Headless</h4>
                             <p>
                                 Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
                                 feature-rich dashboard to manage and automate your marketplace.
@@ -472,8 +587,21 @@
                 <div class="item">
                     <div class="built_section_carosel_div text-center">
                         <div class="built_section_carosel_div_content">
-                            <img src="./assests/built/built1.webp">
-                            <h4> Multi-Seller Marketplaces</h4>
+                            <img src="./assests/built/multivendoricon-removebg-preview.png">
+                            <h4> Multi Vendor</h4>
+                            <p>
+                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
+                                feature-rich dashboard to manage and automate your marketplace.
+                            </p>
+                            <a href="multivendor.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="built_section_carosel_div text-center">
+                        <div class="built_section_carosel_div_content">
+                            <img src="./assests/built/mobileapps-removebg-preview.png">
+                            <h4> Mobile Application</h4>
                             <p>
                                 Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
                                 feature-rich dashboard to manage and automate your marketplace.
@@ -485,8 +613,8 @@
                 <div class="item">
                     <div class="built_section_carosel_div text-center">
                         <div class="built_section_carosel_div_content">
-                            <img src="./assests/built/built2.webp">
-                            <h4> Multi-Seller Marketplaces</h4>
+                            <img src="./assests/built/industries-removebg-preview (1).png">
+                            <h4> Industries</h4>
                             <p>
                                 Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
                                 feature-rich dashboard to manage and automate your marketplace.
@@ -498,47 +626,8 @@
                 <div class="item">
                     <div class="built_section_carosel_div text-center">
                         <div class="built_section_carosel_div_content">
-                            <img src="./assests/built/built3.webp">
-                            <h4> Multi-Seller Marketplaces</h4>
-                            <p>
-                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
-                                feature-rich dashboard to manage and automate your marketplace.
-                            </p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="built_section_carosel_div text-center">
-                        <div class="built_section_carosel_div_content">
-                            <img src="./assests/built/built1.webp">
-                            <h4> Multi-Seller Marketplaces</h4>
-                            <p>
-                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
-                                feature-rich dashboard to manage and automate your marketplace.
-                            </p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="built_section_carosel_div text-center">
-                        <div class="built_section_carosel_div_content">
-                            <img src="./assests/built/built2.webp">
-                            <h4> Multi-Seller Marketplaces</h4>
-                            <p>
-                                Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
-                                feature-rich dashboard to manage and automate your marketplace.
-                            </p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="built_section_carosel_div text-center">
-                        <div class="built_section_carosel_div_content">
-                            <img src="./assests/built/built3.webp">
-                            <h4> Multi-Seller Marketplaces</h4>
+                            <img src="./assests/built/alldevices.avif">
+                            <h4> All Devices</h4>
                             <p>
                                 Comprehensive multi-seller marketplace for B2B and B2C e-commerce businesses. Simplified
                                 feature-rich dashboard to manage and automate your marketplace.
@@ -558,13 +647,13 @@
 
     </section>
     <section class="ecommerce_section text-center p-4">
-        <div class="container">
+        <div class="container"  data-aos="flip-left">
             <div class="sub_banner_content text-center pt-5 pb-2" data-aos="flip-up">
-                <h4>What can you build with StoreHippo® ?</h4>
+                <h4>Unique selling point...</h4>
                 <p>Experience a full-featured development platform with beyond E-commerce capabilities. Get inspired by
                     thousands of use cases. .</p>
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-right">
                 <div class="col-lg-4">
                     <div class="ecommerce_section_content text-center">
                         <img src="./assests/ecommerce/agility-200x200.webp">
@@ -593,37 +682,37 @@
         </div>
     </section>
     <section class="ecommerce_section sub text-center p-4">
-        <div class="container">
+        <div class="container" data-aos="fade-right">
             <div class="sub_banner_content text-center pt-5 pb-2" data-aos="flip-up">
-                <h4>What you will get!!!</h4>
+                <h4>What you will get !</h4>
                 <p>Experience a full-featured development platform with beyond E-commerce capabilities. Get inspired by
                     thousands of use cases. .</p>
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-right">
                 <div class="col-lg-3">
                     <div class="ecommerce_section_content text-center">
-                        <img src="./assests/ecommerce/pwd-200x200.webp">
+                        <img src="./assests/ecommerce/pwaicon-removebg-preview.png">
                         <h4>Web</h4>
                         <p>Stay ahead of trends with rapid adoption of technology</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="ecommerce_section_content text-center">
-                        <img src="./assests/ecommerce/quick-new-200x200.webp">
+                        <img src="./assests/ecommerce/responsiveicon-removebg-preview.png">
                         <h4>Responsive Web Application</h4>
                         <p>Stay ahead of trends with rapid adoption of technology</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="ecommerce_section_content text-center">
-                        <img src="./assests/ecommerce/seamless-new-200x200.webp">
+                        <img src="./assests/ecommerce/android-removebg-preview.png">
                         <h4>Android</h4>
                         <p>Stay ahead of trends with rapid adoption of technology</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="ecommerce_section_content text-center">
-                        <img src="./assests/ecommerce/zero-new-200x200.webp">
+                        <img src="./assests/ecommerce/ios-removebg-preview.png">
                         <h4>Ios</h4>
                         <p>Stay ahead of trends with rapid adoption of technology</p>
                     </div>
@@ -637,7 +726,7 @@
     <section class="customer_section pt-4 pb-4">
         <div class="container">
             <div class="sub_banner_content text-center pt-5 pb-2" data-aos="flip-up">
-                <h4>customers love us ?</h4>
+                <h4>customers great choice..</h4>
                 <p>Hear it from the people who have experienced the change with StoreHippo</p>
             </div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -918,7 +1007,7 @@
     </section>
 
     <section class="contact">
-        <div class="container">
+        <div class="container" data-aos="flip-left">
             <div class="services_heading">
                 <h5>CONTACT<span class="dash"></span></h5>
                 <h1>CONTACT US</h1>
@@ -971,8 +1060,14 @@
                                     <div class="col-md-6">
                                         <input type="text" placeholder="Email" id="email" class="form_control"></input>
                                     </div>
+                                    <div class="col-md-6">
+                                        <input type="text" placeholder="contact number" id="email" class="form_control"></input>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" placeholder="Location" id="email" class="form_control"></input>
+                                    </div>
                                     <div class="col-md-12">
-                                        <input type="text" placeholder="Subject" id="subject"
+                                        <input type="text" placeholder="Company Name" id="subject"
                                             class="form_control"></input>
                                         <textarea name="message" placeholder="Message" class="form_control"></textarea>
                                         <div class="submit">
@@ -1002,7 +1097,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 pb-5 pb-lg-0">
-                    <div class="footer_links">
+                    <div class="footer_links"  data-aos="fade-up" data-aos-duration="2000">
                         <a href="#" class="text-decoration-none d-flex"><img src="./assests/logo.png">
                         </a>
                         <p>ECBEE is all you
@@ -1019,10 +1114,10 @@
                     <div class="useful_links">
                         <h3>Useful Links</h3>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="text-decoration-none"><i class="fa fa-angle-right pb-3 me-2"
+                            <li><a href="index.html" class="text-decoration-none"><i class="fa fa-angle-right pb-3 me-2"
                                         aria-hidden="true"></i>Home</a></li>
-                            <li><a href="#" class="text-decoration-none"><i class="fa fa-angle-right pb-3  me-2"
-                                        aria-hidden="true"></i>Solutions</a></li>
+                            <li><a href="#solutionid" class="text-decoration-none"><i
+                                        class="fa fa-angle-right pb-3  me-2" aria-hidden="true"></i>Solutions</a></li>
                             <li><a href="#" class="text-decoration-none"><i class="fa fa-angle-right me-2 pb-3 "
                                         aria-hidden="true"></i>Industries</a></li>
                             <li><a href="#" class="text-decoration-none"><i class="fa fa-angle-right me-2 pb-3 "
@@ -1095,6 +1190,10 @@
                 }
             }
         })</script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

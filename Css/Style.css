@@ -3,10 +3,27 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 /* header section */
 .header_section{
-    background-color:#00000017;
+    background: rgba(255,255,255,70%);
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    /* position: sticky;
+    top: 0; */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; */
+    /* background-color:#00000017; */
     /* background-color:#e77c131c; */
     /* <--------------------------#e58a2212  check this color-------------------------->*/
     /* border-bottom: 1px solid #F19300;
@@ -32,28 +49,37 @@
 .navigation .nav-link:hover {
     color: #F19300;
 }
+.navbar-nav .dropdown-menu {
+    padding: 20px 30px;
+    /* background-color: #edd8b16b; */
+}
+.dropdown-item:hover {
+    color:#e77606;
+    
+}
 
 /* Getstarted section */
 .btn-outline-success.getstarted{
-    /* background-color: #F19300; */
-    color:#F19300;
-    padding: 10px 40px;
-    font-size: 18px;
-    border: 1px solid #1a1102;
-}
-.btn-outline-success.getstarted:hover{
     background-color: #F19300;
     color:white;
-    border: 1px solid white;
+    padding: 10px 40px;
+    font-size: 18px;
+    border: none;
+}
+.btn-outline-success.getstarted:hover{
+    background-color: white;
+    color:#F19300;
+    border: 1px solid #F19300;
 
 }
 
 /* banner section */
 .banner_section{
-    padding: 80px 0 90px;
+    padding: 100px 0 110px;
     /* border-bottom: 1px solid #F19300; */
-    position: relative;
+   
     /* box-shadow: 0 7px 10px #ccc; */
+    /* background-color: #edd8b16b; */
     
 }
 .banner_left{
@@ -81,34 +107,50 @@
 .subbanner_section{
     position: absolute;
     /* bottom: 0; */
-    top: 703px;
+    top: 730px;
     left: 0;
     right: 0;
     z-index: 1;
     content: "";
+
   
     
+}
+.subbanner_section h1{
+    color: white;
+    font-weight: 700;
 }
 .subbanner_div{
     /* border: 1px solid black; */
     box-shadow: 0 -3px 12px #ccc;
     background-color: white;
     padding: 30px 0;
+    border-radius: 8px;
+    transform: translateY(0);
+   
+    transition: all 0.3s ease-in;
    
     
 }
 .subbanner_div:hover{
     box-shadow: 0 -3px 12px #e77606;
+    /* transform: translateY(-20px); */
 }
 .image_sub_banner img{
     width: 100px;
     height: 100px;
 }
 
+.orange_bg{
+    background-color: #ffa500a3;
+}
+
 /* about services */
 .solutions_section{
+    position: relative;
  padding-top:180px;
- background-color: #edd8b16b;
+ /* background-color: #ccc;  */
+ background-color: #edd8b16b; 
 }
 
 .solutions_subcontent_right img{
@@ -154,6 +196,10 @@
 .solutions_subcontent_left {
     padding: 70px 0;
 }
+.solutions_section .carousel-control-next, .carousel-control-prev{
+    color:red;
+}
+ 
 
 /* built_section */
 .built_section{
@@ -161,24 +207,68 @@
 }
 .built_section .built_section_carosel_div_content img{
     width: 100%;
-    height: 100%;
+    height: 180px;
+    transition: all 0.3s ease;
+
+}
+.built_section .built_section_carosel_div_content:hover img{
+    transform: scaleY(0.8);
 }
 .built_section_carosel_div{
-    border: 1px solid rgb(149, 144, 135);
+    /* border: 1px solid rgb(149, 144, 135); */
+    box-shadow: 2px 1px 8px #ccc;
     margin: 50px 5px;
     padding: 20px 40px;
     border-radius: 6px;
+    transform: translateY(0);
+   
+    transition: all 0.3s ease-in;
 }
 .built_section_carosel_div:hover{
-    box-shadow: 3px 0px 8px #e77606;
+    box-shadow: 3px 1px 15px #f59f4a;
+    transform: translateY(-15px);
     
 }
 .built_section_carosel_div_content a{
-    border: 1px solid blue;
+    border: 1px solid #F19300;
     padding: 5px 30px;
+    color: #F19300;
     display: inline-block;
     border-radius: 6px;
+    text-decoration: none;
+   
 }
+.built_section_carosel_div_content a:hover{
+background-color: #F19300;
+color: white;
+
+
+}
+.built_section_carosel_div_content_img{
+    padding: 30px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: white;
+    /* border: 1px solid #e77606; */
+    background-color: #615e5b;
+    padding: 0px 14px 0px 0px;
+    border-radius: 50%;
+    margin-right: 10px;
+    line-height: 15px;
+    }
+    
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+     background-color: #e77606;
+ }
+/* .owl-theme .owl-dots .owl-dot span {
+    background: white;
+     border: 1px solid blue;
+     height: 80px;
+     width: 80px;
+     border-radius: 50%;
+     padding:6px;
+     margin-right: 10px;
+    } */
 
 /* ecommerce section */
 .ecommerce_section{
@@ -186,7 +276,14 @@
 }
 .ecommerce_section_content img{
     width: 20vh;
-    padding: 20px ;
+    padding: 20px;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}
+.ecommerce_section_content img:hover{
+    transform: translateY(-15px);
+    transition: all 0.3s ease;
+
 }
 .ecommerce_section.sub{
     background-color:white;
@@ -205,12 +302,29 @@
    width: 50%;
    height: 50%;
 }
+.customer_persons{
+    transform: translateX(0);
+    transition: all 0.3s ease;
+    background-color: white;
+    padding: 20px 0 5px;
+   border-radius: 8px;
+}
+.customer_persons:hover{
+    transform: translateX(10px);
+    /* transform: scaleX(0.8); */
+}
+
 .customer_about {
-    padding: 30px;
-    margin: 30px 0;
+    padding: 30px 0 20px 15px;
+    margin: 0px 80px;
     border-radius: 7px;
     background-color: #f5f5f5;
+    
 }
+.customer_about:hover{
+    /* transform: scaleX(2); */
+    /* transform: translateY(-15px); */
+} 
 
 .quotation{
     width: 30px;
@@ -395,14 +509,14 @@ textarea.form_control{
 /* b2b page */
 
 .b2b_banner{
-        /* margin: 90px 0; */
+        margin: 115px 0 50px;
         /* background-image: linear-gradient(45deg, #ffffff2e, #000000c4), url(../assests/b2b/bannerB2b.svg); */
         /* background-image: url('../assests/b2b/bannerB2b.svg'); */
         background-image: linear-gradient(59deg, #ffffffa3, #00000042), url(../assests/b2b/bannerB2b.svg);
         height: 400px;
         background-repeat: no-repeat;
-        background-position: center;
-        background-size: auto;
+        background-position: right;
+        background-size: cover;
         /* margin: 30px 0; */
     
 }
@@ -449,13 +563,13 @@ b2b_info_left{
 
 /* b2b2c page */
 .b2b2c_banner{
-    /* margin: 90px 0; */
+    margin: 111px 0 50px;
     /* background-image: linear-gradient(45deg, #ffffff2e, #000000c4), url(../assests/b2b/bannerB2b.svg); */
     /* background-image: url('../assests/b2b/bannerB2b.svg'); */
     background-image: linear-gradient(59deg, #ffffffa3, #00000042), url(../assests/b2b2c/banner.png);
     height: 400px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: contain;
     /* margin: 30px 0; */
 
@@ -476,20 +590,20 @@ b2b_info_left{
 
 /* d2c section */
 .d2c_banner{
-    /* margin: 90px 0; */
+    margin: 111px 0 50px;
     /* background-image: linear-gradient(45deg, #ffffff2e, #000000c4), url(../assests/b2b/bannerB2b.svg); */
     /* background-image: url('../assests/b2b/bannerB2b.svg'); */
     background-image: linear-gradient(59deg, #ffffffa3, #00000042), url(../assests/d2c/bannerd2c.jpg);
     height: 400px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: contain;
     /* margin: 30px 0; */
 
 }
 /* b2c section */
 .b2c_banner{
-    /* margin: 90px 0; */
+    margin: 111px 0 50px;
     /* background-image: linear-gradient(45deg, #ffffff2e, #000000c4), url(../assests/b2b/bannerB2b.svg); */
     /* background-image: url('../assests/b2b/bannerB2b.svg'); */
     background-image: linear-gradient(59deg, #ffffffa3, #00000042), url('../assests/b2c/b2c-ecommerce-hero.webp');
@@ -503,14 +617,38 @@ b2b_info_left{
 
 /* mutltivendor section */
 .multivendor_banner{
-    /* margin: 90px 0; */
+    margin: 111px 0 50px;
     /* background-image: linear-gradient(45deg, #ffffff2e, #000000c4), url(../assests/b2b/bannerB2b.svg); */
     /* background-image: url('../assests/b2b/bannerB2b.svg'); */
     background-image: linear-gradient(59deg, #ffffffa3, #00000042), url('../assests/multivendor/multi-vendor-platforms_banner.jpg');
     height: 400px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: inherit;
     /* margin: 30px 0; */
 
+}
+/* multistore section */
+
+.multistore_banner{
+    margin: 111px 0 50px;
+    /* background-image: linear-gradient(45deg, #ffffff2e, #000000c4), url(../assests/b2b/bannerB2b.svg); */
+    /* background-image: url('../assests/b2b/bannerB2b.svg'); */
+    background-image: linear-gradient(59deg, #ffffffa3, #00000042), url('../assests/multistore/multistorebanner.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: inherit;
+}
+/* omnichannel */
+.omnichanner_banner{
+    margin: 111px 0 50px;
+    /* background-image: linear-gradient(45deg, #ffffff2e, #000000c4), url(../assests/b2b/bannerB2b.svg); */
+    /* background-image: url('../assests/b2b/bannerB2b.svg'); */
+    background-image: linear-gradient(59deg, #ffffffa3, #00000042), url('../assests/omnichannel/omnichannel-retail-trends-2023-1-removebg-preview.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: inherit;
+    /* margin: 30px 0; */
 }
