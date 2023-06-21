@@ -19,8 +19,18 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
     <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+    <link rel="icon" type="image/png" sizes="48x48" href="./assests/favicon-32x32.png">
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="./js/index.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("x6gFhQTEtKHkJp2e2");
+        })();
+    </script>
     <title>Ecbee</title>
 </head>
 
@@ -55,9 +65,10 @@
                                                 Solutions
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item headerbg" href="b2b.html">B2B Commerce</a></li>
+                                                <li><a class="dropdown-item headerbg" href="b2b.html">B2B Commerce</a>
+                                                </li>
                                                 <li><a class="dropdown-item" href="b2b2c.html">B2B2C Commerce</a></li>
-                                                
+
                                                 <li><a class="dropdown-item" href="d2c.html">D2C</a></li>
                                                 <li><a class="dropdown-item" href="b2c.html">B2C</a></li>
                                                 <li><a class="dropdown-item" href="multivendor.html">Multi Vendor</a>
@@ -67,12 +78,14 @@
                                                 <li><a class="dropdown-item" href="multistore.html">Industries</a>
                                                 </li>
 
-                                                <li><a class="dropdown-item" href="omnichannel.html">Omni Channel</a></li>
+                                                <li><a class="dropdown-item" href="omnichannel.html">Omni Channel</a>
+                                                </li>
                                                 <li><a class="dropdown-item" href="#">Custom Application</a></li>
                                                 <li><a class="dropdown-item" href="#">Mobile Applilcation</a></li>
-                                                <li><a class="dropdown-item" href="#">Geolocation Based Ecommerce</a></li>
+                                                <li><a class="dropdown-item" href="#">Geolocation Based Ecommerce</a>
+                                                </li>
                                                 <li><a class="dropdown-item" href="#">Headless</a></li>
-                                                
+
                                                 <!-- <li>
                                                     <hr class="dropdown-divider">
                                                 </li> -->
@@ -80,17 +93,21 @@
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="industries.html">Industries</a>
+                                            <a class="nav-link active" aria-current="page"
+                                                href="industries.html">Industries</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="examples.html">Examples</a>
+                                            <a class="nav-link active" aria-current="page"
+                                                href="examples.html">Examples</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                                            <a class="nav-link active" aria-current="page" href="about.html">About
+                                                Us</a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                                            <a class="nav-link active" aria-current="page" href="contact.html">Contact
+                                                Us</a>
                                         </li>
 
 
@@ -106,8 +123,14 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="getstarted d-flex justify-content-end"  data-aos="fade-up" data-aos-duration="1000">
-                        <a href="contact.html"> <button class="btn btn-outline-success getstarted" type="submit">Get Started</button></a>
+
+                    <div class="getstarted d-flex justify-content-end" data-aos="fade-up" data-aos-duration="1000">
+                        <button class="btn text-danger" type="button" disabled>
+                            <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                            <!-- <span class="visually-hidden">Loading...</span> -->
+                        </button>
+                        <a href="contact.html"> <button class="btn btn-outline-success getstarted" type="submit">Get
+                                Started</button></a>
                     </div>
                 </div>
             </div>
@@ -117,13 +140,14 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
+
                     <div class="banner_left" data-aos="fade-right">
                         <h2 data-aos="fade-down">Most Flexible Ecommerce Platform</h2>
                         <p data-aos="fade-up">Designed for diverse B2B, B2C and B2B2C business models</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="banner_right">
+                    <div class="banner_right" data-aos="fade-left">
                         <!-- <img src="./assests/online-shopping-concept-landing-page_52683-22153.avif" alt="banner_right"> -->
                         <!-- <img src="./assests/eCommerce-Cartoon-removebg-preview.png" alt="banner_right"> -->
                         <img src="./assests/illustration-isometric-concept-safety-of-online-shopping-in-e-commerce-stores-free-vector-removebg-preview.png"
@@ -159,7 +183,7 @@
                     </a>
 
                 </div>
-                <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000" >
+                <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
                     <a href="b2c.html" class="text-decoration-none">
                         <div class="subbanner_div orange_bg text-center">
                             <div class="image_sub_banner text-center">
@@ -187,6 +211,7 @@
 
     <section class="solutions_section">
         <div class="container">
+
             <div class="sub_banner_content text-center pt-5" data-aos="flip-up">
                 <h4>Tailer made enterprise solutions for your brand</h4>
                 <p>Power Disruption brands across 40+ industries.</p>
@@ -302,7 +327,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="solutions_subcontent_right">
-                                        <img src="./assests/d2c/bannerd2c-removebg-preview.png">
+                                        <img src="./assests/d2c/Direct-to-consumerbanner-removebg-preview.png">
 
                                     </div>
                                 </div>
@@ -647,7 +672,7 @@
 
     </section>
     <section class="ecommerce_section text-center p-4">
-        <div class="container"  data-aos="flip-left">
+        <div class="container" data-aos="flip-left">
             <div class="sub_banner_content text-center pt-5 pb-2" data-aos="flip-up">
                 <h4>Unique selling point...</h4>
                 <p>Experience a full-featured development platform with beyond E-commerce capabilities. Get inspired by
@@ -1050,46 +1075,43 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-md-8 border-left py-3">
+                        <!-- <h1>Contact form</h1> -->
                         <div class="contact_address">
-                            <form action="">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="Name" id="name" class="form_control"></input>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="Email" id="email" class="form_control"></input>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="contact number" id="email" class="form_control"></input>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="Location" id="email" class="form_control"></input>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input type="text" placeholder="Company Name" id="subject"
-                                            class="form_control"></input>
-                                        <textarea name="message" placeholder="Message" class="form_control"></textarea>
-                                        <div class="submit">
-                                            <button class="button">Get Message</button>
-                                        </div>
-
-                                    </div>
-                                    <!-- <div class="col-lg-12"> -->
-
-                                    <!-- </div> -->
-
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <h5 for="name">Name</h5>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" />
                                 </div>
+                                <div class="col-md-6 form-group">
+                                    <h5 for="email">Email</h5>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <h5 for="email">Company Name</h5>
+                                    <input type="name" class="form-control" id="company" placeholder="Company Name" />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <h5 for="email">Contact Number</h5>
+                                    <input type="tel" class="form-control" id="contact" placeholder="Contact Number" />
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <h5 for="message">Message</h5>
+                                    <textarea class="form-control" id="message" rows="3"></textarea>
+                                </div>
+                                <div class="submit">
 
-
-
-
-                            </form>
-
+                                    <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
 
         </div>
     </section>
@@ -1097,7 +1119,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 pb-5 pb-lg-0">
-                    <div class="footer_links"  data-aos="fade-up" data-aos-duration="2000">
+                    <div class="footer_links" data-aos="fade-up" data-aos-duration="2000">
                         <a href="#" class="text-decoration-none d-flex"><img src="./assests/logo.png">
                         </a>
                         <p>ECBEE is all you
