@@ -1,3 +1,13 @@
 .about_content{
     padding: 180px 0;
+    
+    background-image: url('../assests/curvesvg.avif');
+    background-size: cover;
+    background-position: center;
+}
+.about_us_heading{
+    /* background-image: url('../assests/svg2.avif');
+    background-size: cover;
+    background-position: center;
+    z-index: 99; */
 }

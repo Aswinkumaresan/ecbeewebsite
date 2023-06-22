@@ -1,0 +1,25 @@
+@media (max-width: 576px) {
+	.logo {
+        width: 114px;
+        height: 90px;
+    }
+    .subbanner_section{
+        position: relative;
+        padding: 50px 0px;
+    }
+    .banner_section{
+        padding: 100px 0 110px;
+        /* border-bottom: 1px solid #F19300; */
+       
+        /* box-shadow: 0 7px 10px #ccc; */
+        /* background-color: #edd8b16b; */
+        
+    }
+    .subbanner_div{
+        margin-bottom: 50px;
+    }
+    .customer_persons{
+        margin-bottom: 30px;
+    }
+
+}

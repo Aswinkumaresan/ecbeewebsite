@@ -157,6 +157,10 @@ html {
     width: 100%;
     height: auto;
 }
+.solutions_subcontent_description_img img{
+    width: 150px;
+    height: 100px;
+}
 .solutions_subcontent_description_content{
     padding-bottom: 30px;
     line-height: 30px;
@@ -289,6 +293,15 @@ color: white;
     background-color:white;
 }
 
+/* clients section */
+.clientimg{
+    width:100px;
+    height: 100px;
+}
+.subclients img{
+    padding: 20px;
+}
+
 /* customer section */
 .customer_section{
     background-color: #edd8b16b;
@@ -361,7 +374,11 @@ color: white;
 /* contact section */
 
 .contact{
-	padding:80px 0;
+	 padding:80px 0;
+    /* background-image: url('../assests/curvesvg.avif');
+    background-repeat: no-repeat;
+    background-size: cover;   */
+    /* opacity: 0.7; */
 }
 .contact_head{
 	
@@ -374,6 +391,7 @@ color: white;
 }
 .contact_form{
 	padding: 36px 0px;
+    
 	
 }
 .address_list{
@@ -393,6 +411,9 @@ color: white;
     height: 45px;
     text-align: center;
     line-height: 42px;
+}
+.address_list:hover i{
+    transform: rotate3d(1, 1, 1, 45deg);
 }
 .address_list h3{
 
