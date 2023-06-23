@@ -37,15 +37,17 @@
 
 <body>
 
-    <section class="header_section">
+    <section class="header_section d-none d-lg-block">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-lg-3">
-                    <a href="index.html">
+                <div class="col-lg-3">
+                    <a class="" href="index.html">
                         <img class="logo" src="./assests/logo.png" alt="Logo">
                     </a>
+
                 </div>
-                <div class="col-lg-6">
+                
+                <div class="col-lg-7">
                     <div class="navigation">
                         <nav class="navbar navbar-expand-lg bg-body-tertiary">
                             <div class="container-fluid">
@@ -102,13 +104,11 @@
                                                 href="examples.html">Examples</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="about.html">About
-                                                Us</a>
+                                            <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="contact.html">Contact
-                                                Us</a>
+                                            <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
                                         </li>
 
 
@@ -121,9 +121,12 @@
                                 </div>
                             </div>
                         </nav>
+                        
                     </div>
                 </div>
-                <div class="d-none d-md-block col-lg-3">
+                
+
+                <div class="d-none d-lg-block col-lg-2">
 
                     <div class="getstarted d-flex justify-content-end" data-aos="fade-up" data-aos-duration="1000">
                         <button class="btn text-danger" type="button" disabled>
@@ -137,17 +140,108 @@
             </div>
         </div>
     </section>
+
+     <section class="mobile_header d-lg-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-12">
+                        <nav class="navbar bg-body-tertiary fixed-top">
+                            
+                            <div class="container-fluid">
+                                <a class="" href="index.html">
+                                    <img class="logo" src="./assests/logo.png" alt="Logo">
+                                </a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                              </button>
+                              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <img class="logo" src="./assests/logo.png" alt="Logo">
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"> </button>
+                                </div>
+                                
+                                <div class="offcanvas-body">
+                                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="true">
+                                            Solutions
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item headerbg" href="b2b.html">B2B Commerce</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="b2b2c.html">B2B2C Commerce</a></li>
+
+                                            <li><a class="dropdown-item" href="d2c.html">D2C</a></li>
+                                            <li><a class="dropdown-item" href="b2c.html">B2C</a></li>
+                                            <li><a class="dropdown-item" href="multivendor.html">Multi Vendor</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="multistore.html">Multi Store</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="multistore.html">Industries</a>
+                                            </li>
+
+                                            <li><a class="dropdown-item" href="omnichannel.html">Omni Channel</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Custom Application</a></li>
+                                            <li><a class="dropdown-item" href="#">Mobile Applilcation</a></li>
+                                            <li><a class="dropdown-item" href="#">Geolocation Based Ecommerce</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Headless</a></li>
+
+                                            <!-- <li>
+                                                <hr class="dropdown-divider">
+                                            </li> -->
+                                            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page"
+                                            href="industries.html">Industries</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page"
+                                            href="examples.html">Examples</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="about.html">About
+                                            Us</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="contact.html">Contact
+                                            Us</a>
+                                    </li>
+                                    
+                                  </ul>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+   
+    
+    
     <section class="banner_section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-lg-6">
+                <div class="col-md-6 col-lg-6">
 
                     <div class="banner_left" data-aos="fade-right">
                         <h2 data-aos="fade-down">Your Gateway To eCommerce</h2>
                         <p data-aos="fade-up">Built To Suit Your Business Ideas....</p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-md-6 col-lg-6">
                     <div class="banner_right" data-aos="fade-left">
                         <!-- <img src="./assests/online-shopping-concept-landing-page_52683-22153.avif" alt="banner_right"> -->
                         <!-- <img src="./assests/eCommerce-Cartoon-removebg-preview.png" alt="banner_right"> -->
@@ -159,10 +253,12 @@
             </div>
         </div>
     </section>
-    <section class="subbanner_section">
+
+
+    <section class="subbanner_section d-none d-lg-block">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-3" data-aos="fade-up" data-aos-duration="300">
+                <div class="col-lg-3" data-aos="fade-up" data-aos-duration="300">
                     <a href="b2b.html" class="text-decoration-none">
                         <div class="subbanner_div orange_bg text-center">
                             <div class="image_sub_banner text-center">
@@ -173,7 +269,7 @@
                     </a>
 
                 </div>
-                <div class="col-12  col-lg-3" data-aos="fade-up" data-aos-duration="700">
+                <div class="col-lg-3" data-aos="fade-up" data-aos-duration="700">
                     <a href="d2c.html" class="text-decoration-none">
                         <div class="subbanner_div orange_bg text-center">
                             <div class="image_sub_banner  text-center">
@@ -184,7 +280,7 @@
                     </a>
 
                 </div>
-                <div class="col-12 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
                     <a href="b2c.html" class="text-decoration-none">
                         <div class="subbanner_div orange_bg text-center">
                             <div class="image_sub_banner text-center">
@@ -195,7 +291,7 @@
                     </a>
 
                 </div>
-                <div class=" col-12  col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+                <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
                     <a href="b2b2c.html" class="text-decoration-none">
                         <div class="subbanner_div orange_bg text-center">
                             <div class="image_sub_banner text-center">
@@ -698,21 +794,21 @@
                     thousands of use cases. .</p>
             </div>
             <div class="row" data-aos="fade-right">
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <div class="ecommerce_section_content text-center">
                         <img src="./assests/ecommerce/agility-200x200.webp">
                         <h4>USP 1</h4>
                         <p>Stay ahead of trends with rapid adoption of technology</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <div class="ecommerce_section_content text-center">
                         <img src="./assests/ecommerce/faster-200x200.webp">
                         <h4>USP 2</h4>
                         <p>Stay ahead of trends with rapid adoption of technology</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <div class="ecommerce_section_content text-center">
                         <img src="./assests/ecommerce/flexibility-200x200.webp">
                         <h4>USP 3</h4>
@@ -743,7 +839,7 @@
             </div>
         </div>
     </section> -->
-    <section class="subclients mt-5 pt-4">
+    <!-- <section class="subclients mt-5 pt-4">
         <div class="container">
             <div class="row">
                 <div class="section_title text-center">
@@ -753,8 +849,8 @@
             </div>
             <div class="owl-carousel owl-theme text-center" id="clients_logo">
                 <div class="item">
-                    <h4><img src="./assests/solutions/avonseals-removebg-preview.png" class="d-inline w-100"
-                            alt="..."></h4>
+                    <h4><img src="./assests/solutions/avonseals-removebg-preview.png" class="d-inline w-100" alt="...">
+                    </h4>
                 </div>
                 <div class="item">
                     <h4><img src="./assests/solutions/shubhcards.png" class="d-inline w-100 " alt="..."></h4>
@@ -769,8 +865,8 @@
                     <h4><img src="./assests/solutions/aiema.png" class="d-inline w-100" alt="..."></h4>
                 </div>
                 <div class="item">
-                    <h4><img src="./assests/solutions/avonseals-removebg-preview.png" class="d-inline w-100"
-                            alt="..."></h4>
+                    <h4><img src="./assests/solutions/avonseals-removebg-preview.png" class="d-inline w-100" alt="...">
+                    </h4>
                 </div>
                 <div class="item">
                     <h4><img src="./assests/solutions/bestgifts.png" class="d-inline w-100" alt="..."></h4>
@@ -794,8 +890,8 @@
                     <h4><img src="./assests/solutions/bestgifts.png" class="d-inline w-100" alt="..."></h4>
                 </div>
                 <div class="item">
-                    <h4><img src="./assests/solutions/avonseals-removebg-preview.png" class="d-inline w-100"
-                            alt="..."></h4>
+                    <h4><img src="./assests/solutions/avonseals-removebg-preview.png" class="d-inline w-100" alt="...">
+                    </h4>
                 </div>
                 <div class="item">
                     <h4><img src="./assests/solutions/shubhcards.png" class="d-inline w-100" alt="..."></h4>
@@ -809,7 +905,7 @@
 
 
 
-    </section>
+    </section> -->
     <section class="ecommerce_section sub text-center p-4">
         <div class="container" data-aos="fade-right">
             <div class="sub_banner_content text-center pt-5 pb-2" data-aos="flip-up">
@@ -818,28 +914,28 @@
                     thousands of use cases. .</p>
             </div>
             <div class="row" data-aos="fade-right">
-                <div class="col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="ecommerce_section_content text-center">
                         <img src="./assests/ecommerce/pwaicon-removebg-preview.png">
                         <h4>Web</h4>
                         <p>Stay ahead of trends with rapid adoption of technology</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-6  col-lg-3">
                     <div class="ecommerce_section_content text-center">
                         <img src="./assests/ecommerce/responsiveicon-removebg-preview.png">
                         <h4>Responsive Web Application</h4>
                         <p>Stay ahead of trends with rapid adoption of technology</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-6  col-lg-3">
                     <div class="ecommerce_section_content text-center">
                         <img src="./assests/ecommerce/android-removebg-preview.png">
                         <h4>Android</h4>
                         <p>Stay ahead of trends with rapid adoption of technology</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-6 col-lg-3">
                     <div class="ecommerce_section_content text-center">
                         <img src="./assests/ecommerce/ios-removebg-preview.png">
                         <h4>Ios</h4>
@@ -866,6 +962,8 @@
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -937,7 +1035,7 @@
                     <div class="carousel-item">
                         <div class="customer_section_carosel">
                             <div class="row">
-                                <div class="col-12 col-lg-6">
+                                <div class="col-lg-6">
                                     <div class="customer_persons">
                                         <div class="row">
                                             <div class="col-3">
@@ -967,12 +1065,78 @@
 
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6">
+                                <div class="col-lg-6">
                                     <div class="customer_persons">
                                         <div class="row">
                                             <div class="col-3">
                                                 <div class="customer_img">
                                                     <img src="./assests/cus/avish-jolly-100x100.webp" alt="">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-9">
+                                                <h4>Andrew</h4>
+                                            </div>
+                                        </div>
+                                        <div class="customer_about">
+                                            <sup><img class="quotation"
+                                                    src="./assests/cus/quotation-200x200.webp"></sup>
+                                            <p>While researching for the solutions for B2B eCommerce I reviewed many
+                                                different
+                                                solutions to go live and test out our product in market in a faster...
+                                            <details>
+                                                <summary>read more.....</summary>
+                                                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting
+                                                    attractions, international pavilions, award-winning fireworks and
+                                                    seasonal special events.</p>
+                                            </details>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="customer_section_carosel">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="customer_persons">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="customer_img">
+                                                    <img src="./assests/cus/mr-nasser-100x100.webp" alt="">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-9">
+                                                <h4>Sasi Kumar</h4>
+                                            </div>
+                                        </div>
+                                        <div class="customer_about">
+                                            <sup><img class="quotation"
+                                                    src="./assests/cus/quotation-200x200.webp"></sup>
+                                            <p>While researching for the solutions for B2B eCommerce I reviewed many
+                                                different
+                                                solutions to go live and test out our product in market in a faster...
+                                            <details>
+                                                <summary>read more.....</summary>
+                                                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting
+                                                    attractions, international pavilions, award-winning fireworks and
+                                                    seasonal special events.</p>
+                                            </details>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="customer_persons">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="customer_img">
+                                                    <img src="./assests/cus/andre-mostert-3-1--100x100.webp" alt="">
 
                                                 </div>
                                             </div>
@@ -1153,7 +1317,7 @@
             </div>
             <div class="contact_form">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-md-5">
                         <div class="contact_address">
                             <div class="address_list">
                                 <!-- <i class="fa fa-map-marker" aria-hidden="true"></i> -->
@@ -1179,7 +1343,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 border-left py-3">
+                    <div class="col-md-7 border-left py-3">
                         <!-- <h1>Contact form</h1> -->
                         <div class="contact_address">
                             <div class="row">
@@ -1222,7 +1386,7 @@
     <section class="footer pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 pb-5 pb-lg-0">
+                <div class="col-md-3 pb-5 pb-lg-0">
                     <div class="footer_links" data-aos="fade-up" data-aos-duration="2000">
                         <a href="#" class="text-decoration-none d-flex"><img src="./assests/logo.png">
                         </a>
@@ -1241,7 +1405,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6  col-lg-2 pb-3 pb-lg-0">
+                <div class="col-6  col-md-3 pb-3 pb-lg-0">
                     <div class="useful_links">
                         <h3>Useful Links</h3>
                         <ul class="list-unstyled">
@@ -1262,7 +1426,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-6 col-lg-2 pb-3 pb-lg-0">
+                <div class="col-6 col-md-3 pb-3 pb-lg-0">
                     <div class="useful_links">
                         <h3>Our Services</h3>
                         <ul class="list-unstyled">
@@ -1280,7 +1444,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 d-flex justify-content-center d-lg-flex justify-content-lg-start col-lg-3">
+                <div class="col-12 d-flex justify-content-center d-lg-flex justify-content-lg-start col-md-3">
                     <div class="useful_links">
                         <h3>Contact Us</h3>
                         <p>23 ,3rd Floor Sai Muthu Siva Apartmetns,<br>
@@ -1315,7 +1479,7 @@
                     items: 1
                 },
                 600: {
-                    items: 3
+                    items:1
                 },
                 1000: {
                     items: 4
