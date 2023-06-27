@@ -1,0 +1,88 @@
+
+/* b2b page */
+
+.b2b_banner{
+    margin: 115px 0 50px;
+    /* background-image: linear-gradient(45deg, #ffffff2e, #000000c4), url(../assests/b2b/bannerB2b.svg); */
+    /* background-image: url('../assests/b2b/bannerB2b.svg'); */
+    background-image: linear-gradient(59deg, #ffffffa3, #00000042), url(../assests/b2b/bannerB2b.svg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    /* margin: 30px 0; */
+
+}
+.b2b_banner img{
+opacity: 2;
+}
+.b2bcontent{
+padding:85px 30px;
+}
+.b2bcontent h2{
+font-size: 45px;
+color: #e77606;
+font-weight: 700;
+}
+.b2bcontent p{
+font-size: 20px;
+line-height: 30px;
+
+}
+.b2b_info{
+padding: 50px 0;
+}
+.b2b_info_right{
+padding: 50px 0;
+}
+.b2b_info_right h2{
+font-size: 30px;
+color: #e77606;
+}
+b2b_info_left{
+/* padding: 120px 0; */
+}
+.b2b_info_right p{
+font-size: 16px;
+line-height: 34px;
+letter-spacing: 1px;
+color: #615e5b;
+}
+.b2b_info img{
+width: 100%;
+height: auto;
+padding: 40px ;
+}
+
+.b2b_overview{
+    padding: 20px 0;
+}
+.b2b_overview_left{
+    padding: 40px 0;
+}
+.b2b_overview ul.custom-list {
+    list-style: none;
+  }
+.b2b_overview ul li{
+    line-height: 30px;
+    font-size: 16px;
+}
+  .b2b_overview ul.custom-list li:before {
+    content: "";
+    height: 0;
+    width: 0;
+    border-color: transparent #e77606;
+      border-style: solid;
+    border-width: 0.5em 0 0.5em 0.5em;
+    position: relative;
+    display: block;
+    left: -1em;
+    top: 1.25em;
+  
+   
+
+}
+ 
+/* .listimg{
+    list-style-image: url('../assests/b2b/fast-forward.gif');
+} */
