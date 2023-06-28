@@ -1,7 +1,7 @@
 *{
     color:black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
+    font-size: 17px;
 }
 html {
     scroll-behavior: smooth;
@@ -193,6 +193,7 @@ html {
 }
 
 .solutions_subcontent_right img{
+    padding: 95px 0 0;
     width: 100%;
     height: auto;
 }
@@ -567,8 +568,13 @@ textarea.form_control{
     font-size: 16px;
     font-weight: 600;
 }
-
-
+/* b2b page */
+.b2bcontent{
+    padding: 120px 0 60px 35px;
+}
+.b2b_info_right{
+    padding: 30px 0;
+}
 /* b2b2c page */
 .b2b2c_banner{
     margin: 111px 0 50px;

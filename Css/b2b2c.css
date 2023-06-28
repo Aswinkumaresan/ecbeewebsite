@@ -1,0 +1,23 @@
+ ul.custom-list {
+    list-style: none;
+  }
+ul li{
+    line-height: 30px;
+    font-size: 16px;
+}
+ ul.custom-list li:before {
+    content: "";
+    height: 0;
+    width: 0;
+    border-color: transparent #e77606;
+      border-style: solid;
+    border-width: 0.5em 0 0.5em 0.5em;
+    position: relative;
+    display: block;
+    left: -1em;
+    top: 1.25em;
+  
+   
+
+}
+ 
