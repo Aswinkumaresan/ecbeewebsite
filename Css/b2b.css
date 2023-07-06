@@ -82,6 +82,12 @@ padding: 40px ;
    
 
 }
+.bombay_hardwares{
+  background-color: #f1930066;
+  padding: 40px 48px 58px;
+  border-radius: 21px;
+  box-shadow: 7px -7px 22px #ccc;
+}
  
 /* .listimg{
     list-style-image: url('../assests/b2b/fast-forward.gif');
